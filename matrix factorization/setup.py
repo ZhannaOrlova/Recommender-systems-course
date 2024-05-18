@@ -16,7 +16,7 @@ def get_requirements(file_path:str) -> List[str] :
 
 
 setup(
-    name='collaborative filtering',
+    name='matrix factorization',
     version='0.0.1',
     author='Zhanna',
     author_email='orlova.zhan@gmail.com',
