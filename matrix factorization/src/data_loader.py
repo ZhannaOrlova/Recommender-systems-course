@@ -22,4 +22,7 @@ class Dataset:
             self.dataset.append(pd.read_csv(i))
         self.filenames = filenames
 
+    def filter_data(self, df):
+        df_subset = df.sample(frac=0.1, random_state=1)
+        return df_subset
 
